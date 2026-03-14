@@ -5,19 +5,29 @@ A real-time network security monitor with embedded hardware alerts using Linux, 
 This project detects unknown devices on a local network and triggers alerts via an Arduino-based embedded system. It demonstrates hardware-software integration, embedded C/C++ development, Linux networking, and serial communication in a professional OpenWrt-style environment.
 
 System Architecture
+
+Workflow Overview:
+
 Network Device
-      │
-      │
+↓
+
 Linux Network Monitor (C)
-      │
+↓
+
 Device Detection Algorithm
-      │
+↓
+
 Serial Command (USB)
-      │
-Arduino
-├── LED Alert
-├── Buzzer Alarm
-└── Servo Lock
+↓
+
+Arduino Embedded System
+
+LED Alert
+
+Buzzer Alarm
+
+Servo Lock
+
 Components:
 
 Network Devices – Any device connected to the network (computers, phones, IoT).
