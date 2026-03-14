@@ -1,4 +1,4 @@
-mart Network Monitoring & Embedded Alert System
+Smart Network Monitoring & Embedded Alert System
 
 A real-time network security monitor with embedded hardware alerts using Linux, C, and Arduino.
 
