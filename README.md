@@ -32,7 +32,7 @@ Components:
 
 Network Devices – Any device connected to the network (computers, phones, IoT).
 
-Linux Network Monitor – A C program running in WSL/Ubuntu that continuously scans the network using arp.
+Linux Network Monitor – A C program running in WSL/Ubuntu that continuously scans the network every 15 seconds using arp.
 
 Device Detection Algorithm – Compares the current scan against a whitelist of known devices (known_devices.txt). Unknown devices trigger alerts.
 
